@@ -62,7 +62,7 @@ sudo service nginx restart
 #redireccion
 # ip/redirect_me
 
-error
+#error
 # ip/error
 
 #Airbnb2 -> creacion data
