@@ -17,7 +17,7 @@ sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 
 #BACKUP DEFAULTCONFIG
-sudo mkdir -p backup_default
+sudo mkdir -p ~/backup_default
 sudo cp /etc/nginx/sites-available/default ~/backup_default/available_default
 sudo cp /etc/nginx/sites-enabled/default ~/backup_default/enabled_default
 sudo cp /etc/nginx/nginx.conf ~/backup_default/nginx_default
